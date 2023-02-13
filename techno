@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Techno Party Information</title>
+</head>
+<body>
+	<h1>Add Techno Party Information</h1>
+	<form method="POST" action="submit-form.php">
+		<label for="name">Party Name:</label><br>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="date">Date:</label><br>
+		<input type="date" id="date" name="date" required><br>
+
+		<label for="location">Location:</label><br>
+		<input type="text" id="location" name="location" required><br>
+
+		<label for="description">Description:</label><br>
+		<textarea id="description" name="description" required></textarea><br>
+
+		<label for="contact">Contact:</label><br>
+		<input type="text" id="contact" name="contact" required><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
