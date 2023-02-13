@@ -13,13 +13,19 @@
 		<input type="date" id="date" name="date" required><br>
 
 		<label for="location">Location:</label><br>
-		<input type="text" id="location" name="location" required><br>
+		<input type="text" id="location" name="location"><br>
+
+		<label for="number-of-people">Number of People:</label><br>
+		<input type="number" id="number-of-people" name="number-of-people"><br>
 
 		<label for="description">Description:</label><br>
 		<textarea id="description" name="description" required></textarea><br>
 
 		<label for="contact">Contact:</label><br>
 		<input type="text" id="contact" name="contact" required><br>
+
+		<label for="allow-location">Allow Location:</label>
+		<input type="checkbox" id="allow-location" name="allow-location"><br>
 
 		<input type="submit" value="Submit">
 	</form>
